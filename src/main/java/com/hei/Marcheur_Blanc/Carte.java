@@ -6,18 +6,18 @@ import java.util.List;
 import java.util.Map;
 
 public class Carte {
-    private Map<Lieu, List<Lieu>> adjList = new HashMap<>();
+    private final Map<Lieu, List<Lieu>> adjacence = new HashMap<>();
 
     public void ajouterLieu(Lieu lieu){
-        adjList.putIfAbsent(lieu, new ArrayList<>());
+        adjacence.putIfAbsent(lieu, new ArrayList<>());
     }
 
     public void ajouterRue(Rue rue){
-        adjList.get(rue.getLieu1()).add(rue.getLieu2());
-        adjList.get(rue.getLieu2()).add(rue.getLieu1());
+        adjacence.get(rue.getOrigine()).add(rue.getDestination());
+        adjacence.get(rue.getDestination()).add(rue.getOrigine());
     }
 
     public List<Lieu> getAdjacents(Lieu lieu){
-        return adjList.getOrDefault(lieu, new ArrayList<>());
+        return adjacence.getOrDefault(lieu, new ArrayList<>());
     }
 }

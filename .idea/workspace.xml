@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa31b0b-2e71-4369-98c9-aaa90d97dcd5" name="Changes" comment="" />
+    <list default="true" id="5aa31b0b-2e71-4369-98c9-aaa90d97dcd5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2hzmrux28UnUJ3AgTPjsIuY8xGN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,20 +38,94 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MarcheurTest.chemin_aleatoire.executor": "Run",
+    "JUnit.MarcheurTest.executor": "Run",
+    "JUnit.MarcheurTest.test_pas_de_chemin.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "prod",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
-      </set>
-    </attachedChunks>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Marcheur_Blanc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MarcheurTest">
+    <configuration name="MarcheurTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marcheur_Blanc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
+      <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarcheurTest.chemin_aleatoire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marcheur_Blanc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
+      <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
+      <option name="METHOD_NAME" value="chemin_aleatoire" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarcheurTest.test_pas_de_chemin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marcheur_Blanc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
+      <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
+      <option name="METHOD_NAME" value="test_pas_de_chemin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarcheurTest" />
+        <item itemvalue="JUnit.MarcheurTest.test_pas_de_chemin" />
+        <item itemvalue="JUnit.MarcheurTest.chemin_aleatoire" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +135,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718605490784</updated>
-      <workItem from="1718605492686" duration="15000" />
+      <workItem from="1718605492686" duration="1092000" />
+      <workItem from="1718607071771" duration="515000" />
+      <workItem from="1718615779097" duration="5829000" />
     </task>
     <servers />
   </component>

@@ -7,5 +7,10 @@ import lombok.*;
 @EqualsAndHashCode
 @Data
 public class Lieu {
-    private final String nom;
+    private  String nom;
+
+    @Override
+    public String toString(){
+        return nom;
+    }
 }
