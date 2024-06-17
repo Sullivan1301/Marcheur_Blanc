@@ -32,7 +32,7 @@ public class Marcheur {
                 if(explorer(carte, prochain, destination, chemin, visites)){
                     return true;
                 }
-                chemin.remove(chemin.size() - 1 );
+                chemin.removeLast();
                 visites.remove(prochain);
             }
         }
