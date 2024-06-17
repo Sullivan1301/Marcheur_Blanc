@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aa31b0b-2e71-4369-98c9-aaa90d97dcd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java" afterDir="false" />
     </list>
@@ -39,7 +36,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MarcheurTest.chemin_aleatoire.executor": "Run",
+    "JUnit.MarcheurTest.chemin_aleatoire_multiples_rues.executor": "Run",
+    "JUnit.MarcheurTest.chemin_multiples_rues.executor": "Run",
     "JUnit.MarcheurTest.executor": "Run",
+    "JUnit.MarcheurTest.pas_de_chemin.executor": "Run",
+    "JUnit.MarcheurTest.test_marche.executor": "Run",
     "JUnit.MarcheurTest.test_pas_de_chemin.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarcheurTest.chemin_aleatoire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarcheurTest.chemin_aleatoire_multiples_rues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
@@ -86,13 +87,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
       <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
-      <option name="METHOD_NAME" value="chemin_aleatoire" />
+      <option name="METHOD_NAME" value="chemin_aleatoire_multiples_rues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarcheurTest.test_pas_de_chemin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MarcheurTest.chemin_multiples_rues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +103,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
       <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
-      <option name="METHOD_NAME" value="test_pas_de_chemin" />
+      <option name="METHOD_NAME" value="chemin_multiples_rues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarcheurTest.pas_de_chemin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marcheur_Blanc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
+      <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
+      <option name="METHOD_NAME" value="pas_de_chemin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarcheurTest.test_marche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Marcheur_Blanc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hei.Marcheur_Blanc" />
+      <option name="MAIN_CLASS_NAME" value="com.hei.Marcheur_Blanc.MarcheurTest" />
+      <option name="METHOD_NAME" value="test_marche" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,8 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MarcheurTest" />
-        <item itemvalue="JUnit.MarcheurTest.test_pas_de_chemin" />
-        <item itemvalue="JUnit.MarcheurTest.chemin_aleatoire" />
+        <item itemvalue="JUnit.MarcheurTest.chemin_multiples_rues" />
+        <item itemvalue="JUnit.MarcheurTest.pas_de_chemin" />
+        <item itemvalue="JUnit.MarcheurTest.chemin_aleatoire_multiples_rues" />
+        <item itemvalue="JUnit.MarcheurTest.test_marche" />
       </list>
     </recent_temporary>
   </component>
@@ -137,11 +172,26 @@
       <updated>1718605490784</updated>
       <workItem from="1718605492686" duration="1092000" />
       <workItem from="1718607071771" duration="515000" />
-      <workItem from="1718615779097" duration="5829000" />
+      <workItem from="1718615779097" duration="9565000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java</url>
+          <line>43</line>
+          <properties class="com.hei.Marcheur_Blanc.MarcheurTest" method="pas_de_chemin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

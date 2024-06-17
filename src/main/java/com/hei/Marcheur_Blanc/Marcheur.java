@@ -11,25 +11,34 @@ public class Marcheur {
         Set<Lieu> visites = new HashSet<>();
         visites.add(depart);
 
-        while (!chemin.get(chemin.size() - 1).equals(destination)) {
-            Lieu dernierLieu = chemin.get(chemin.size() - 1);
-            List<Lieu> adjacents = carte.getAdjacents(dernierLieu);
-            adjacents.removeAll(visites);
+        if (explorer(carte, depart, destination, chemin, visites)){
+            return chemin;
+        } else {
+            return Collections.emptyList();
+        }
+    }
 
-            if (adjacents.isEmpty()) {
-                chemin.remove(chemin.size() - 1);
-                if (chemin.isEmpty()) {
-                    System.out.println("Aucun chemin truvé de " + depart + " à " + destination);
-                    return Collections.emptyList();
+    private boolean explorer(Carte carte, Lieu courant, Lieu destination, List<Lieu> chemin, Set<Lieu> visites){
+        if (courant.equals(destination)){
+            return true;
+        }
+        List<Lieu> adjacents = carte.getAdjacents(courant);
+        Collections.shuffle(adjacents, random);
+
+        for (Lieu prochain : adjacents){
+            if (!visites.contains(prochain)){
+                visites.add(prochain);
+                chemin.add(prochain);
+                if(explorer(carte, prochain, destination, chemin, visites)){
+                    return true;
                 }
-            } else {
-                Lieu prochainLieu = adjacents.get(random.nextInt(adjacents.size()));
-                chemin.add(prochainLieu);
-                visites.add(prochainLieu);
+                chemin.remove(chemin.size() - 1 );
+                visites.remove(prochain);
             }
         }
-        return chemin;
+        return false;
     }
+
     public void marche(Carte carte, Lieu depart, Lieu destination) {
         List<Lieu> chemin = trouverChemin(carte, depart, destination);
         if (chemin.isEmpty()) {
