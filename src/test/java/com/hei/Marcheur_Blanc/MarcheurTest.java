@@ -1,5 +1,6 @@
 package com.hei.Marcheur_Blanc;
 
+import com.hei.carte.Carte;
 import org.junit.jupiter.api.Test;
 
 public class MarcheurTest {

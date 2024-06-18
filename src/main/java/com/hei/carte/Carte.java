@@ -1,4 +1,7 @@
-package com.hei.Marcheur_Blanc;
+package com.hei.carte;
+
+import com.hei.Marcheur_Blanc.Lieu;
+import com.hei.Marcheur_Blanc.Rue;
 
 import java.util.ArrayList;
 import java.util.HashMap;

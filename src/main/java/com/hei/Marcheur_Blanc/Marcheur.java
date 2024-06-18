@@ -1,5 +1,7 @@
 package com.hei.Marcheur_Blanc;
 
+import com.hei.carte.Carte;
+
 import java.util.*;
 
 public class Marcheur {
