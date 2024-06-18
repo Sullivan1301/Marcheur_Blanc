@@ -13,4 +13,7 @@ public class Lieu {
     public String toString(){
         return nom;
     }
+
+    public void ajouterLieuAdjacent(Lieu destination) {
+    }
 }

@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aa31b0b-2e71-4369-98c9-aaa90d97dcd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hei/Marcheur_Blanc/Marcheur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hei/carte/Carte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hei/carte/Carte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +31,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MarcheurTest.chemin_aleatoire.executor": "Run",
-    "JUnit.MarcheurTest.chemin_aleatoire_multiples_rues.executor": "Run",
-    "JUnit.MarcheurTest.chemin_multiples_rues.executor": "Run",
-    "JUnit.MarcheurTest.executor": "Run",
-    "JUnit.MarcheurTest.pas_de_chemin.executor": "Run",
-    "JUnit.MarcheurTest.test_marche.executor": "Run",
-    "JUnit.MarcheurTest.test_pas_de_chemin.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "prod",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MarcheurTest.chemin_aleatoire.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.chemin_aleatoire_multiples_rues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.chemin_multiples_rues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.pas_de_chemin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.test_marche.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MarcheurTest.test_pas_de_chemin.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prod&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Marcheur_Blanc" />
@@ -65,7 +64,7 @@
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="PATTERN" value="com.hei.carte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +79,7 @@
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="PATTERN" value="com.hei.carte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,7 +95,7 @@
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="PATTERN" value="com.hei.carte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +111,7 @@
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="PATTERN" value="com.hei.carte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +127,7 @@
       <module name="Marcheur_Blanc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hei.Marcheur_Blanc.*" />
+          <option name="PATTERN" value="com.hei.carte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,6 +171,7 @@
       <workItem from="1718605492686" duration="1092000" />
       <workItem from="1718607071771" duration="515000" />
       <workItem from="1718615779097" duration="10275000" />
+      <workItem from="1718689034009" duration="578000" />
     </task>
     <servers />
   </component>
@@ -183,8 +183,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/hei/Marcheur_Blanc/MarcheurTest.java</url>
-          <line>43</line>
-          <properties class="com.hei.Marcheur_Blanc.MarcheurTest" method="pas_de_chemin">
+          <line>44</line>
+          <properties class="com.hei.Marcheur_Blanc.MarcheurTest" method="chemin_multiples_rues">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
