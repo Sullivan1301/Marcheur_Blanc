@@ -27,6 +27,7 @@ public class MarcheurTest {
 
         balancoire.ajouterLieuAdjacent(esti);
         balancoire.ajouterLieuAdjacent(boulevard_de_l_Europe);
+
         boulevard_de_l_Europe.ajouterLieuAdjacent(esti);
 
         Marcheur sullivan = new Marcheur();

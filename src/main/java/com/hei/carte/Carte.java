@@ -1,29 +1,27 @@
-package com.hei.carte;
+package com.hei.Marcheur_Blanc;
 
-import com.hei.Marcheur_Blanc.Lieu;
-import com.hei.Marcheur_Blanc.Rue;
-import lombok.Getter;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+@AllArgsConstructor
+@Data
 @Getter
-public class Carte {
-    private final List<Lieu> lieux = new ArrayList<>();
-    private final List<Rue> rues = new ArrayList<>();
+@ToString(of = "nom")
+public class Lieu {
+    private final String nom;
+    private final List<Lieu> lieuxAdjacents = new ArrayList<>();
 
-    public void ajouterLieu(Lieu lieu){
-        if (!lieux.contains(lieu)){
-            lieux.add(lieu);
+
+    public void ajouterLieuAdjacent(Lieu lieu) {
+        if(!lieuxAdjacents.contains(lieu)){
+            lieuxAdjacents.add(lieu);
+            lieu.ajouterLieuAdjacentInterne(this);
         }
     }
-
-    public void ajouterRue(Rue rue){
-        if (!rues.contains(rue)){
-            rues.add(rue);
-            rue.getLieu1().ajouterLieuAdjacent(rue.getLieu2());
-            rue.getLieu2().ajouterLieuAdjacent(rue.getLieu1());
-        }
+    private void ajouterLieuAdjacentInterne(Lieu lieu){
+        lieuxAdjacents.add(lieu);
     }
-
 }
