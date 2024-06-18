@@ -10,6 +10,7 @@ import java.util.List;
 public class Carte {
     @Getter
     private final List<Lieu> lieux = new ArrayList<>();
+    @Getter
     private final List<Rue> rues = new ArrayList<>();
 
     public void ajouterLieu(Lieu lieu){
@@ -25,5 +26,4 @@ public class Carte {
             rue.getLieu2().ajouterLieuAdjacent(rue.getLieu1());
         }
     }
-
 }
