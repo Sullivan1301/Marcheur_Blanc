@@ -27,7 +27,7 @@ public class Marcheur {
         if (courant.equals(destination)){
             return true;
         }
-        List<Lieu> adjacents = carte.getLieuxAdjacents();
+        List<Lieu> adjacents = courant.getLieuxAdjacents();
         Collections.shuffle(adjacents, random);
 
         for (Lieu prochain : adjacents){
