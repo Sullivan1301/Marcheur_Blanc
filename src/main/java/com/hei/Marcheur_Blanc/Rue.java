@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Rue {
-    private Lieu origine;
-    private Lieu destination;
+    private Lieu lieu1;
+    private Lieu lieu2;
 }

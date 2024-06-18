@@ -5,9 +5,7 @@ import com.hei.Marcheur_Blanc.Rue;
 import lombok.Getter;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Carte {
     @Getter
@@ -23,8 +21,8 @@ public class Carte {
     public void ajouterRue(Rue rue){
         if (!rues.contains(rue)){
             rues.add(rue);
-            rue.getOrigine().ajouterLieuAdjacent(rue.getDestination());
-            rue.getDestination().ajouterLieuAdjacent(rue.getOrigine());
+            rue.getLieu1().ajouterLieuAdjacent(rue.getLieu2());
+            rue.getLieu2().ajouterLieuAdjacent(rue.getLieu1());
         }
     }
 
