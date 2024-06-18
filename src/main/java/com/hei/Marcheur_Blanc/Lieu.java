@@ -7,19 +7,21 @@ import java.util.List;
 
 
 @AllArgsConstructor
-@EqualsAndHashCode
 @Data
+@Getter
+@ToString(of = "nom")
 public class Lieu {
     private final String nom;
     private final List<Lieu> lieuxAdjacents = new ArrayList<>();
 
-    @Override
-    public String toString(){
-        return nom;
-    }
 
     public void ajouterLieuAdjacent(Lieu lieu) {
+       if(!lieuxAdjacents.contains(lieu)){
+           lieuxAdjacents.add(lieu);
+           lieu.ajouterLieuAdjacentInterne(this);
+       }
+    }
+    private void ajouterLieuAdjacentInterne(Lieu lieu){
         lieuxAdjacents.add(lieu);
     }
-
 }
