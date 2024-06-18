@@ -12,17 +12,21 @@ public class Marcheur {
         Set<Lieu> visites = new HashSet<>();
         visites.add(depart);
 
-        if (explorer(depart, destination, chemin, visites)){
+        if (explorer(depart, destination, chemin, visites, 0, 100)){
             return chemin;
         } else {
             return Collections.emptyList();
         }
     }
 
-    private boolean explorer(Lieu courant, Lieu destination, List<Lieu> chemin, Set<Lieu> visites){
+    private boolean explorer(Lieu courant, Lieu destination, List<Lieu> chemin, Set<Lieu> visites, int profondeur, int maxProfondeur){
         if (courant.equals(destination)){
             return true;
         }
+        if (profondeur >= maxProfondeur){
+            return false;
+        }
+
         List<Lieu> adjacents = new ArrayList<>(courant.getLieuxAdjacents());
         Collections.shuffle(adjacents, random);
 
@@ -30,7 +34,7 @@ public class Marcheur {
             if (!visites.contains(prochain)){
                 visites.add(prochain);
                 chemin.add(prochain);
-                if(explorer(prochain, destination, chemin, visites)){
+                if(explorer(prochain, destination, chemin, visites, profondeur+1, maxProfondeur)){
                     return true;
                 }
                 chemin.removeLast();

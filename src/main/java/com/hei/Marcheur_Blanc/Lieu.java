@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @Getter
 @ToString(of = "nom")
+@EqualsAndHashCode(exclude = "lieuxAdjacents")
 public class Lieu {
     private final String nom;
     private final List<Lieu> lieuxAdjacents = new ArrayList<>();
